@@ -1,0 +1,37 @@
+{
+  "model": "XGBoost",
+  "task": "coordinates",
+  "selection_split": "validation",
+  "selection_metric": "rmse_2d_m",
+  "centralized_global": {
+    "candidate_id": "central_04",
+    "max_depth": 8,
+    "learning_rate": 0.05,
+    "subsample": 0.85,
+    "colsample_bytree": 0.55,
+    "min_child_weight": 2.0,
+    "reg_lambda": 1.0,
+    "central_rounds": 400,
+    "early_stopping_rounds": 30,
+    "federated_cycles": 12,
+    "local_boost_rounds": 1,
+    "nthread": -1,
+    "seed": 42
+  },
+  "federated_global_cyclic_boosting": {
+    "candidate_id": "federated_06",
+    "max_depth": 8,
+    "learning_rate": 0.1,
+    "subsample": 0.85,
+    "colsample_bytree": 0.55,
+    "min_child_weight": 2.0,
+    "reg_lambda": 1.0,
+    "central_rounds": 400,
+    "early_stopping_rounds": 30,
+    "federated_cycles": 12,
+    "local_boost_rounds": 1,
+    "nthread": -1,
+    "seed": 42
+  },
+  "cluster_protocol": "The centralized and federated winners are reused in their respective cluster-aware strategies; K is selected on validation."
+}

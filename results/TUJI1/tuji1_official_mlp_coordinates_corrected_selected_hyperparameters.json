@@ -1,0 +1,43 @@
+{
+  "model": "MLP",
+  "task": "coordinates",
+  "selection_split": "validation",
+  "selection_metric": "rmse_2d_m",
+  "centralized_global": {
+    "candidate_id": "central_00",
+    "hidden_sizes": [
+      128,
+      64
+    ],
+    "dropout": 0.0,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "batch_size": 128,
+    "central_epochs": 100,
+    "patience": 15,
+    "federated_rounds": 40,
+    "local_epochs": 2,
+    "client_weighting": "uniform",
+    "force_cpu": false,
+    "seed": 42
+  },
+  "federated_global_fedavg": {
+    "candidate_id": "federated_04",
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "dropout": 0.1,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "batch_size": 128,
+    "central_epochs": 100,
+    "patience": 15,
+    "federated_rounds": 40,
+    "local_epochs": 2,
+    "client_weighting": "uniform",
+    "force_cpu": false,
+    "seed": 42
+  },
+  "cluster_protocol": "The centralized and federated winners are reused in their respective cluster-aware strategies; K is selected on validation."
+}

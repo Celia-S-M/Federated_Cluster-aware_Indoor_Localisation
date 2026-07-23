@@ -1,0 +1,9 @@
+model,task,modality,split,n_clusters,floor_accuracy,n,n_neighbors,distance,weights,coverage,gate_accuracy_diagnostic
+KNN,floor,centralized_by_predicted_cluster,test,2.0,0.935,400,3,manhattan,distance,1.0,0.965
+KNN,floor,centralized_global,test,,0.9325,400,3,manhattan,distance,,
+KNN,floor,federated_by_predicted_cluster,test,2.0,0.935,400,3,manhattan,distance,1.0,0.965
+KNN,floor,federated_global_exact_distributed_knn,test,,0.9325,400,3,manhattan,distance,,
+KNN,floor,centralized_by_predicted_cluster,val,2.0,0.9486552567237164,409,3,manhattan,distance,1.0,0.9731051344743277
+KNN,floor,centralized_global,val,,0.9535452322738386,409,3,manhattan,distance,,
+KNN,floor,federated_by_predicted_cluster,val,2.0,0.9486552567237164,409,3,manhattan,distance,1.0,0.9731051344743277
+KNN,floor,federated_global_exact_distributed_knn,val,,0.9535452322738386,409,3,manhattan,distance,,

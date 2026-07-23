@@ -1,0 +1,133 @@
+{
+  "prefix": "tuji1_official",
+  "source": {
+    "train": {
+      "method": "original_file",
+      "file": "/home/coder/Indoor/Notebooks/TUJI1/training_data_complete.csv"
+    },
+    "test": {
+      "method": "original_file",
+      "file": "/home/coder/Indoor/Notebooks/TUJI1/testing_data_complete.csv"
+    }
+  },
+  "files": {
+    "train": "/home/coder/Indoor/Notebooks/prepared/TUJI1/tuji1_official_train.csv",
+    "val": "/home/coder/Indoor/Notebooks/prepared/TUJI1/tuji1_official_val.csv",
+    "test": "/home/coder/Indoor/Notebooks/prepared/TUJI1/tuji1_official_test.csv",
+    "routes": "/home/coder/Indoor/Notebooks/prepared/TUJI1/tuji1_official_routes.csv"
+  },
+  "diagnostics": {
+    "rows": {
+      "train": 5740,
+      "val": 1012,
+      "test": 2147
+    },
+    "positions": {
+      "train": 1148,
+      "val": 203,
+      "test": 431
+    },
+    "position_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "clients": {
+      "train": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "val": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "test": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "routing": [
+    {
+      "N_CLUSTERS": 2,
+      "VAL_GATE_ACCURACY": 0.9752964426877471,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.976245924545878,
+      "VAL_MEAN_CONFIDENCE": 0.918497810213191,
+      "TEST_MEAN_CONFIDENCE": 0.9101764729650171,
+      "N_TRAIN_POSITIONS": 1148
+    },
+    {
+      "N_CLUSTERS": 3,
+      "VAL_GATE_ACCURACY": 0.9288537549407114,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9245458779692595,
+      "VAL_MEAN_CONFIDENCE": 0.817010064267539,
+      "TEST_MEAN_CONFIDENCE": 0.8195105066669209,
+      "N_TRAIN_POSITIONS": 1148
+    },
+    {
+      "N_CLUSTERS": 4,
+      "VAL_GATE_ACCURACY": 0.9110671936758893,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9133674895202608,
+      "VAL_MEAN_CONFIDENCE": 0.7730010163738519,
+      "TEST_MEAN_CONFIDENCE": 0.771011187395541,
+      "N_TRAIN_POSITIONS": 1148
+    },
+    {
+      "N_CLUSTERS": 5,
+      "VAL_GATE_ACCURACY": 0.857707509881423,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.8341872380065207,
+      "VAL_MEAN_CONFIDENCE": 0.6924394886688913,
+      "TEST_MEAN_CONFIDENCE": 0.6824162978416582,
+      "N_TRAIN_POSITIONS": 1148
+    },
+    {
+      "N_CLUSTERS": 6,
+      "VAL_GATE_ACCURACY": 0.8092885375494071,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.8053097345132744,
+      "VAL_MEAN_CONFIDENCE": 0.6464488855062426,
+      "TEST_MEAN_CONFIDENCE": 0.62150340822609,
+      "N_TRAIN_POSITIONS": 1148
+    },
+    {
+      "N_CLUSTERS": 7,
+      "VAL_GATE_ACCURACY": 0.8132411067193676,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.7908709827666511,
+      "VAL_MEAN_CONFIDENCE": 0.6194153991748979,
+      "TEST_MEAN_CONFIDENCE": 0.5940046663252536,
+      "N_TRAIN_POSITIONS": 1148
+    },
+    {
+      "N_CLUSTERS": 8,
+      "VAL_GATE_ACCURACY": 0.8063241106719368,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.7433628318584071,
+      "VAL_MEAN_CONFIDENCE": 0.5740064034129235,
+      "TEST_MEAN_CONFIDENCE": 0.5425551049540933,
+      "N_TRAIN_POSITIONS": 1148
+    },
+    {
+      "N_CLUSTERS": 9,
+      "VAL_GATE_ACCURACY": 0.7361660079051383,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.7428970656730322,
+      "VAL_MEAN_CONFIDENCE": 0.5330601181882266,
+      "TEST_MEAN_CONFIDENCE": 0.5211580603377485,
+      "N_TRAIN_POSITIONS": 1148
+    },
+    {
+      "N_CLUSTERS": 10,
+      "VAL_GATE_ACCURACY": 0.7282608695652174,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.7177456916627852,
+      "VAL_MEAN_CONFIDENCE": 0.5265782290891277,
+      "TEST_MEAN_CONFIDENCE": 0.5053118454822176,
+      "N_TRAIN_POSITIONS": 1148
+    }
+  ]
+}

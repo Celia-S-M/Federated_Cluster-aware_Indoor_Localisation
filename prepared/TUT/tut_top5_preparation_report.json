@@ -1,0 +1,142 @@
+{
+  "prefix": "tut_top5",
+  "source": {
+    "method": "merged_original_training_and_testing_files",
+    "training_file": "/home/coder/Indoor/Notebooks/TUT/Training_dataset.csv",
+    "testing_file": "/home/coder/Indoor/Notebooks/TUT/Testing_dataset.csv"
+  },
+  "files": {
+    "train": "/home/coder/Indoor/Notebooks/prepared/TUT/tut_top5_train.csv",
+    "val": "/home/coder/Indoor/Notebooks/prepared/TUT/tut_top5_val.csv",
+    "test": "/home/coder/Indoor/Notebooks/prepared/TUT/tut_top5_test.csv",
+    "routes": "/home/coder/Indoor/Notebooks/prepared/TUT/tut_top5_routes.csv"
+  },
+  "diagnostics": {
+    "rows": {
+      "train": 1868,
+      "val": 409,
+      "test": 400
+    },
+    "positions": {
+      "train": 1839,
+      "val": 394,
+      "test": 395
+    },
+    "position_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "clients": {
+      "train": [
+        "LGE LG-D625",
+        "Letv x600",
+        "Sony E5823",
+        "samsung SM-A310F",
+        "samsung SM-A510F"
+      ],
+      "val": [
+        "LGE LG-D625",
+        "Letv x600",
+        "Sony E5823",
+        "samsung SM-A310F",
+        "samsung SM-A510F"
+      ],
+      "test": [
+        "LGE LG-D625",
+        "Letv x600",
+        "Sony E5823",
+        "samsung SM-A310F",
+        "samsung SM-A510F"
+      ]
+    },
+    "floors": {
+      "train": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "val": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "test": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "top_devices": [
+      "Letv x600",
+      "Sony E5823",
+      "samsung SM-A310F",
+      "LGE LG-D625",
+      "samsung SM-A510F"
+    ]
+  },
+  "routing": [
+    {
+      "N_CLUSTERS": 2,
+      "VAL_GATE_ACCURACY": 0.9731051344743277,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.965,
+      "VAL_MEAN_CONFIDENCE": 0.92209636254066,
+      "TEST_MEAN_CONFIDENCE": 0.9371183266517034,
+      "N_TRAIN_POSITIONS": 1839
+    },
+    {
+      "N_CLUSTERS": 3,
+      "VAL_GATE_ACCURACY": 0.9339853300733496,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9425,
+      "VAL_MEAN_CONFIDENCE": 0.8656197499329948,
+      "TEST_MEAN_CONFIDENCE": 0.8819647025348241,
+      "N_TRAIN_POSITIONS": 1839
+    },
+    {
+      "N_CLUSTERS": 4,
+      "VAL_GATE_ACCURACY": 0.9315403422982885,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.935,
+      "VAL_MEAN_CONFIDENCE": 0.8391550787181999,
+      "TEST_MEAN_CONFIDENCE": 0.866795706930794,
+      "N_TRAIN_POSITIONS": 1839
+    },
+    {
+      "N_CLUSTERS": 5,
+      "VAL_GATE_ACCURACY": 0.8973105134474327,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9025,
+      "VAL_MEAN_CONFIDENCE": 0.8048389521211773,
+      "TEST_MEAN_CONFIDENCE": 0.8155432588426091,
+      "N_TRAIN_POSITIONS": 1839
+    },
+    {
+      "N_CLUSTERS": 6,
+      "VAL_GATE_ACCURACY": 0.8973105134474327,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9075,
+      "VAL_MEAN_CONFIDENCE": 0.8035206585586858,
+      "TEST_MEAN_CONFIDENCE": 0.8246201773945843,
+      "N_TRAIN_POSITIONS": 1839
+    },
+    {
+      "N_CLUSTERS": 7,
+      "VAL_GATE_ACCURACY": 0.882640586797066,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9025,
+      "VAL_MEAN_CONFIDENCE": 0.7683879147256018,
+      "TEST_MEAN_CONFIDENCE": 0.7969754924310274,
+      "N_TRAIN_POSITIONS": 1839
+    },
+    {
+      "N_CLUSTERS": 8,
+      "VAL_GATE_ACCURACY": 0.8459657701711492,
+      "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.83,
+      "VAL_MEAN_CONFIDENCE": 0.7253451600516371,
+      "TEST_MEAN_CONFIDENCE": 0.7384117823786457,
+      "N_TRAIN_POSITIONS": 1839
+    }
+  ]
+}

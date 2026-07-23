@@ -1,0 +1,15 @@
+model,task,modality,split,n_clusters,floor_accuracy,n,coverage,gate_accuracy_diagnostic,selected_candidate_id,selected_from_n_candidates,selection_metric,hidden_sizes,dropout,learning_rate,weight_decay,batch_size,central_epochs,patience,federated_rounds,local_epochs,client_weighting,force_cpu,seed
+MLP,floor,centralized_by_predicted_cluster,val,2,0.9706601466992665,409,1.0,0.9731051344743277,central_01,8,val_floor_accuracy,"(128, 64)",0.0,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,federated_by_predicted_cluster_fedavg,val,2,0.9706601466992665,409,1.0,0.9731051344743277,federated_02,8,val_floor_accuracy,"(128, 64)",0.1,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,centralized_by_predicted_cluster,val,3,0.9657701711491442,409,1.0,0.9339853300733496,central_01,8,val_floor_accuracy,"(128, 64)",0.0,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,federated_by_predicted_cluster_fedavg,val,3,0.9633251833740831,409,1.0,0.9339853300733496,federated_02,8,val_floor_accuracy,"(128, 64)",0.1,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,centralized_by_predicted_cluster,val,4,0.9657701711491442,409,1.0,0.9315403422982885,central_01,8,val_floor_accuracy,"(128, 64)",0.0,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,federated_by_predicted_cluster_fedavg,val,4,0.9657701711491442,409,1.0,0.9315403422982885,federated_02,8,val_floor_accuracy,"(128, 64)",0.1,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,centralized_by_predicted_cluster,val,5,0.9657701711491442,409,1.0,0.8973105134474327,central_01,8,val_floor_accuracy,"(128, 64)",0.0,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,federated_by_predicted_cluster_fedavg,val,5,0.9511002444987775,409,1.0,0.8973105134474327,federated_02,8,val_floor_accuracy,"(128, 64)",0.1,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,centralized_by_predicted_cluster,val,6,0.9633251833740831,409,1.0,0.8973105134474327,central_01,8,val_floor_accuracy,"(128, 64)",0.0,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,federated_by_predicted_cluster_fedavg,val,6,0.9535452322738386,409,1.0,0.8973105134474327,federated_02,8,val_floor_accuracy,"(128, 64)",0.1,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,centralized_by_predicted_cluster,val,7,0.9584352078239609,409,1.0,0.882640586797066,central_01,8,val_floor_accuracy,"(128, 64)",0.0,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,federated_by_predicted_cluster_fedavg,val,7,0.9364303178484108,409,1.0,0.882640586797066,federated_02,8,val_floor_accuracy,"(128, 64)",0.1,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,centralized_by_predicted_cluster,val,8,0.9633251833740831,409,1.0,0.8459657701711492,central_01,8,val_floor_accuracy,"(128, 64)",0.0,0.0005,1e-05,128,100,15,40,2,uniform,False,42
+MLP,floor,federated_by_predicted_cluster_fedavg,val,8,0.941320293398533,409,1.0,0.8459657701711492,federated_02,8,val_floor_accuracy,"(128, 64)",0.1,0.0005,1e-05,128,100,15,40,2,uniform,False,42

@@ -1,0 +1,10 @@
+{
+  "model": "KNN",
+  "task": "floor",
+  "selection_split": "validation",
+  "selection_metric": "floor_accuracy",
+  "n_neighbors": 3,
+  "distance": "manhattan",
+  "weights": "distance",
+  "cluster_protocol": "K is selected independently by modality on validation."
+}

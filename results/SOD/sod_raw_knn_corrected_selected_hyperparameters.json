@@ -1,0 +1,10 @@
+{
+  "model": "KNN",
+  "task": "coordinates",
+  "selection_split": "validation",
+  "selection_metric": "rmse_2d_m",
+  "n_neighbors": 9,
+  "distance": "manhattan",
+  "weights": "distance",
+  "cluster_protocol": "K is selected independently by modality on validation."
+}

@@ -1,0 +1,261 @@
+{
+  "raw_split_source": {
+    "method": "reconstructed_from_30_vs_10_scans_per_position",
+    "n_train_rows": 11370,
+    "n_test_rows": 860,
+    "n_train_positions": 379,
+    "n_test_positions": 86
+  },
+  "variants": {
+    "sod_raw": {
+      "files": {
+        "train": "/home/coder/Indoor/Notebooks/prepared/SOD/sod_raw_train.csv",
+        "val": "/home/coder/Indoor/Notebooks/prepared/SOD/sod_raw_val.csv",
+        "test": "/home/coder/Indoor/Notebooks/prepared/SOD/sod_raw_test.csv",
+        "routes": "/home/coder/Indoor/Notebooks/prepared/SOD/sod_raw_routes.csv"
+      },
+      "diagnostics": {
+        "rows": {
+          "train": 9660,
+          "val": 1710,
+          "test": 860
+        },
+        "positions": {
+          "train": 322,
+          "val": 57,
+          "test": 86
+        },
+        "position_overlap": {
+          "train_val": 0,
+          "train_test": 0,
+          "val_test": 0
+        },
+        "clients": {
+          "train": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "val": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "test": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      },
+      "routing": [
+        {
+          "N_CLUSTERS": 2,
+          "VAL_GATE_ACCURACY": 0.9842105263157894,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9895348837209302,
+          "VAL_MEAN_CONFIDENCE": 0.9776582253669329,
+          "TEST_MEAN_CONFIDENCE": 0.9743329325322483,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 3,
+          "VAL_GATE_ACCURACY": 0.9842105263157894,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9744186046511628,
+          "VAL_MEAN_CONFIDENCE": 0.9529795065947376,
+          "TEST_MEAN_CONFIDENCE": 0.9413218297618354,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 4,
+          "VAL_GATE_ACCURACY": 0.9713450292397661,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9744186046511628,
+          "VAL_MEAN_CONFIDENCE": 0.9337072381706453,
+          "TEST_MEAN_CONFIDENCE": 0.925512930763028,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 5,
+          "VAL_GATE_ACCURACY": 0.9555555555555556,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9325581395348838,
+          "VAL_MEAN_CONFIDENCE": 0.9223128088972787,
+          "TEST_MEAN_CONFIDENCE": 0.9005951759522063,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 6,
+          "VAL_GATE_ACCURACY": 0.939766081871345,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9546511627906977,
+          "VAL_MEAN_CONFIDENCE": 0.9054593939271769,
+          "TEST_MEAN_CONFIDENCE": 0.8755923581961479,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 7,
+          "VAL_GATE_ACCURACY": 0.9491228070175438,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9302325581395349,
+          "VAL_MEAN_CONFIDENCE": 0.8736912431625048,
+          "TEST_MEAN_CONFIDENCE": 0.854439590578092,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 8,
+          "VAL_GATE_ACCURACY": 0.9333333333333333,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9651162790697675,
+          "VAL_MEAN_CONFIDENCE": 0.8686779475041221,
+          "TEST_MEAN_CONFIDENCE": 0.8417295614121645,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 9,
+          "VAL_GATE_ACCURACY": 0.952046783625731,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9453488372093023,
+          "VAL_MEAN_CONFIDENCE": 0.8408111732925995,
+          "TEST_MEAN_CONFIDENCE": 0.8334320060949556,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 10,
+          "VAL_GATE_ACCURACY": 0.9432748538011696,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9209302325581395,
+          "VAL_MEAN_CONFIDENCE": 0.8297291601168132,
+          "TEST_MEAN_CONFIDENCE": 0.8313273736002482,
+          "N_TRAIN_POSITIONS": 322
+        }
+      ]
+    },
+    "sod_avg": {
+      "files": {
+        "train": "/home/coder/Indoor/Notebooks/prepared/SOD/sod_avg_train.csv",
+        "val": "/home/coder/Indoor/Notebooks/prepared/SOD/sod_avg_val.csv",
+        "test": "/home/coder/Indoor/Notebooks/prepared/SOD/sod_avg_test.csv",
+        "routes": "/home/coder/Indoor/Notebooks/prepared/SOD/sod_avg_routes.csv"
+      },
+      "diagnostics": {
+        "rows": {
+          "train": 322,
+          "val": 57,
+          "test": 86
+        },
+        "positions": {
+          "train": 322,
+          "val": 57,
+          "test": 86
+        },
+        "position_overlap": {
+          "train_val": 0,
+          "train_test": 0,
+          "val_test": 0
+        },
+        "clients": {
+          "train": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "val": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "test": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      },
+      "routing": [
+        {
+          "N_CLUSTERS": 2,
+          "VAL_GATE_ACCURACY": 0.9824561403508771,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9883720930232558,
+          "VAL_MEAN_CONFIDENCE": 0.9740201369768058,
+          "TEST_MEAN_CONFIDENCE": 0.9619118316561036,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 3,
+          "VAL_GATE_ACCURACY": 0.9824561403508771,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9883720930232558,
+          "VAL_MEAN_CONFIDENCE": 0.945176679391144,
+          "TEST_MEAN_CONFIDENCE": 0.9284635435981048,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 4,
+          "VAL_GATE_ACCURACY": 0.9298245614035088,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9767441860465116,
+          "VAL_MEAN_CONFIDENCE": 0.9149385497473487,
+          "TEST_MEAN_CONFIDENCE": 0.8934815118333624,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 5,
+          "VAL_GATE_ACCURACY": 0.9473684210526315,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9534883720930233,
+          "VAL_MEAN_CONFIDENCE": 0.907215456913657,
+          "TEST_MEAN_CONFIDENCE": 0.8599831692543899,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 6,
+          "VAL_GATE_ACCURACY": 0.9649122807017544,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9418604651162791,
+          "VAL_MEAN_CONFIDENCE": 0.8761161085039241,
+          "TEST_MEAN_CONFIDENCE": 0.8268459510344458,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 7,
+          "VAL_GATE_ACCURACY": 0.9473684210526315,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9418604651162791,
+          "VAL_MEAN_CONFIDENCE": 0.8280438079263691,
+          "TEST_MEAN_CONFIDENCE": 0.8070294840201712,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 8,
+          "VAL_GATE_ACCURACY": 0.9649122807017544,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9418604651162791,
+          "VAL_MEAN_CONFIDENCE": 0.8408860919583311,
+          "TEST_MEAN_CONFIDENCE": 0.7843454406289968,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 9,
+          "VAL_GATE_ACCURACY": 0.9649122807017544,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9186046511627907,
+          "VAL_MEAN_CONFIDENCE": 0.809186588976576,
+          "TEST_MEAN_CONFIDENCE": 0.7611974030237336,
+          "N_TRAIN_POSITIONS": 322
+        },
+        {
+          "N_CLUSTERS": 10,
+          "VAL_GATE_ACCURACY": 0.9649122807017544,
+          "TEST_GATE_ACCURACY_DIAGNOSTIC_ONLY": 0.9186046511627907,
+          "VAL_MEAN_CONFIDENCE": 0.7841109235710321,
+          "TEST_MEAN_CONFIDENCE": 0.7524092291994287,
+          "N_TRAIN_POSITIONS": 322
+        }
+      ]
+    }
+  }
+}

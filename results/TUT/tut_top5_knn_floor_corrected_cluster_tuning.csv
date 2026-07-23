@@ -1,0 +1,15 @@
+model,task,modality,split,n_clusters,floor_accuracy,n,coverage,gate_accuracy_diagnostic,n_neighbors,distance,weights
+KNN,floor,centralized_by_predicted_cluster,val,2,0.9486552567237164,409,1.0,0.9731051344743277,3,manhattan,distance
+KNN,floor,federated_by_predicted_cluster,val,2,0.9486552567237164,409,1.0,0.9731051344743277,3,manhattan,distance
+KNN,floor,centralized_by_predicted_cluster,val,3,0.9486552567237164,409,1.0,0.9339853300733496,3,manhattan,distance
+KNN,floor,federated_by_predicted_cluster,val,3,0.9486552567237164,409,1.0,0.9339853300733496,3,manhattan,distance
+KNN,floor,centralized_by_predicted_cluster,val,4,0.9437652811735942,409,1.0,0.9315403422982885,3,manhattan,distance
+KNN,floor,federated_by_predicted_cluster,val,4,0.9437652811735942,409,1.0,0.9315403422982885,3,manhattan,distance
+KNN,floor,centralized_by_predicted_cluster,val,5,0.9437652811735942,409,1.0,0.8973105134474327,3,manhattan,distance
+KNN,floor,federated_by_predicted_cluster,val,5,0.9437652811735942,409,1.0,0.8973105134474327,3,manhattan,distance
+KNN,floor,centralized_by_predicted_cluster,val,6,0.9388753056234719,409,1.0,0.8973105134474327,3,manhattan,distance
+KNN,floor,federated_by_predicted_cluster,val,6,0.9388753056234719,409,1.0,0.8973105134474327,3,manhattan,distance
+KNN,floor,centralized_by_predicted_cluster,val,7,0.941320293398533,409,1.0,0.882640586797066,3,manhattan,distance
+KNN,floor,federated_by_predicted_cluster,val,7,0.941320293398533,409,1.0,0.882640586797066,3,manhattan,distance
+KNN,floor,centralized_by_predicted_cluster,val,8,0.9437652811735942,409,1.0,0.8459657701711492,3,manhattan,distance
+KNN,floor,federated_by_predicted_cluster,val,8,0.9437652811735942,409,1.0,0.8459657701711492,3,manhattan,distance

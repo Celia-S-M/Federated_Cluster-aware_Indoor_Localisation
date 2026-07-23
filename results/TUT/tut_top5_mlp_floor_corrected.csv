@@ -1,0 +1,9 @@
+model,task,modality,split,n_clusters,floor_accuracy,n,selected_candidate_id,selected_from_n_candidates,selection_metric,hidden_sizes,dropout,learning_rate,weight_decay,batch_size,central_epochs,patience,federated_rounds,local_epochs,client_weighting,force_cpu,seed,coverage,gate_accuracy_diagnostic
+MLP,floor,centralized_by_predicted_cluster,test,2.0,0.95,400,central_01,8,val_floor_accuracy,"(128, 64)",0.0,0.0005,1e-05,128,100,15,40,2,uniform,False,42,1.0,0.965
+MLP,floor,centralized_global,test,,0.945,400,central_01,8,val_floor_accuracy,"(128, 64)",0.0,0.0005,1e-05,128,100,15,40,2,uniform,False,42,,
+MLP,floor,federated_by_predicted_cluster_fedavg,test,2.0,0.955,400,federated_02,8,val_floor_accuracy,"(128, 64)",0.1,0.0005,1e-05,128,100,15,40,2,uniform,False,42,1.0,0.965
+MLP,floor,federated_global_fedavg,test,,0.94,400,federated_02,8,val_floor_accuracy,"(128, 64)",0.1,0.0005,1e-05,128,100,15,40,2,uniform,False,42,,
+MLP,floor,centralized_by_predicted_cluster,val,2.0,0.9706601466992665,409,central_01,8,val_floor_accuracy,"(128, 64)",0.0,0.0005,1e-05,128,100,15,40,2,uniform,False,42,1.0,0.9731051344743277
+MLP,floor,centralized_global,val,,0.9657701711491442,409,central_01,8,val_floor_accuracy,"(128, 64)",0.0,0.0005,1e-05,128,100,15,40,2,uniform,False,42,,
+MLP,floor,federated_by_predicted_cluster_fedavg,val,2.0,0.9706601466992665,409,federated_02,8,val_floor_accuracy,"(128, 64)",0.1,0.0005,1e-05,128,100,15,40,2,uniform,False,42,1.0,0.9731051344743277
+MLP,floor,federated_global_fedavg,val,,0.9657701711491442,409,federated_02,8,val_floor_accuracy,"(128, 64)",0.1,0.0005,1e-05,128,100,15,40,2,uniform,False,42,,

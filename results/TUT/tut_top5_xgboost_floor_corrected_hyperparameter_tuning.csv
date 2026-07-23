@@ -1,0 +1,17 @@
+model,task,selection_modality,candidate_id,selection_split,selection_metric,floor_accuracy,n,max_depth,learning_rate,subsample,colsample_bytree,min_child_weight,reg_lambda,central_rounds,early_stopping_rounds,federated_cycles,local_boost_rounds,nthread,seed,selected
+XGBoost,floor,centralized_global,central_00,val,floor_accuracy,0.9682151589242054,409,4,0.05,0.85,0.55,2.0,1.0,400,30,12,1,-1,42,True
+XGBoost,floor,centralized_global,central_01,val,floor_accuracy,0.9584352078239609,409,4,0.05,0.85,0.8,2.0,1.0,400,30,12,1,-1,42,False
+XGBoost,floor,centralized_global,central_02,val,floor_accuracy,0.9657701711491442,409,4,0.1,0.85,0.55,2.0,1.0,400,30,12,1,-1,42,False
+XGBoost,floor,centralized_global,central_03,val,floor_accuracy,0.9657701711491442,409,4,0.1,0.85,0.8,2.0,1.0,400,30,12,1,-1,42,False
+XGBoost,floor,centralized_global,central_04,val,floor_accuracy,0.9633251833740831,409,8,0.05,0.85,0.55,2.0,1.0,400,30,12,1,-1,42,False
+XGBoost,floor,centralized_global,central_05,val,floor_accuracy,0.960880195599022,409,8,0.05,0.85,0.8,2.0,1.0,400,30,12,1,-1,42,False
+XGBoost,floor,centralized_global,central_06,val,floor_accuracy,0.960880195599022,409,8,0.1,0.85,0.55,2.0,1.0,400,30,12,1,-1,42,False
+XGBoost,floor,centralized_global,central_07,val,floor_accuracy,0.9535452322738386,409,8,0.1,0.85,0.8,2.0,1.0,400,30,12,1,-1,42,False
+XGBoost,floor,federated_global_cyclic_boosting,federated_00,val,floor_accuracy,0.9168704156479217,409,4,0.05,0.85,0.55,2.0,1.0,400,30,12,1,-1,42,False
+XGBoost,floor,federated_global_cyclic_boosting,federated_01,val,floor_accuracy,0.9462102689486552,409,4,0.05,0.85,0.55,2.0,1.0,400,30,12,2,-1,42,False
+XGBoost,floor,federated_global_cyclic_boosting,federated_02,val,floor_accuracy,0.9486552567237164,409,4,0.1,0.85,0.55,2.0,1.0,400,30,12,1,-1,42,False
+XGBoost,floor,federated_global_cyclic_boosting,federated_03,val,floor_accuracy,0.9559902200488998,409,4,0.1,0.85,0.55,2.0,1.0,400,30,12,2,-1,42,False
+XGBoost,floor,federated_global_cyclic_boosting,federated_04,val,floor_accuracy,0.9315403422982885,409,8,0.05,0.85,0.55,2.0,1.0,400,30,12,1,-1,42,False
+XGBoost,floor,federated_global_cyclic_boosting,federated_05,val,floor_accuracy,0.941320293398533,409,8,0.05,0.85,0.55,2.0,1.0,400,30,12,2,-1,42,False
+XGBoost,floor,federated_global_cyclic_boosting,federated_06,val,floor_accuracy,0.9364303178484108,409,8,0.1,0.85,0.55,2.0,1.0,400,30,12,1,-1,42,False
+XGBoost,floor,federated_global_cyclic_boosting,federated_07,val,floor_accuracy,0.960880195599022,409,8,0.1,0.85,0.55,2.0,1.0,400,30,12,2,-1,42,True
